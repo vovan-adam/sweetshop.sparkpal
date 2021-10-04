@@ -1,0 +1,437 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition-timing-function: ease-out;
+	transition: 0.25s;
+}
+a{
+	text-decoration: none;
+	transition: all 0.25s ease-in-out;
+}
+header
+{
+	margin: 3% 15%;
+}
+.menu
+{
+	background-color: #fff;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	justify-content: space-between;
+	display: flex;
+	padding: 0 15.5%;
+	border-top: 1px solid #e1e1e1;
+}
+.menu-navigation
+{
+	display: flex;
+	width: 712px;
+	justify-content: space-between;
+}
+.menu-navigation a:nth-child(2)
+{
+	border-top: 7px solid #c14679;
+}
+.menu-navigation a:hover
+{
+	border-top: 7px solid #c14679;
+}
+.menu-navigation a
+{
+	transition-timing-function: ease-out;
+	transition: 0.15;
+	color: #111;
+	padding: 30px 0;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 1.2;
+	font-weight: 700;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.header1
+{
+  
+	display: flex;
+	justify-content: space-between;
+}
+.adres
+{
+	display: flex;
+	align-items: flex-end;
+}
+
+.adres img
+{
+	height: 48px;
+}
+.help img
+{
+	margin: 0 10px;
+	width: 30px;
+	height: 65px;
+}
+.help
+{
+	align-self: flex-end;
+	text-align: right;
+	display: flex;
+}
+.hh2
+{
+	display: none;
+}
+.h1:hover  .hh1
+{
+	display: none;
+}
+.h1:hover .hh2
+{
+	display: block;
+	transform: scale(1.04);
+}
+.adres p
+{
+	color: #151515;
+	font-size: 20px;
+    letter-spacing: .05em;
+    padding-left: 10px;
+}
+.adres p:hover
+{
+	color: #a43664;
+}
+.logo
+{
+	padding-right: 7%;
+}
+.touch
+{
+	border: 2px solid #a43664;
+	display: flex;
+	align-items: center;
+	padding: 3px 30px;
+	border-radius: 8%;
+}
+.touch img
+{
+	width: 30px;
+}
+.touch a
+{
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #111;
+	font-weight: 600;
+}
+.touch:hover
+{
+	background-color: #a43664;
+	opacity: 0.8;
+}
+.gal-h2
+{
+	margin-bottom: 100px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 190px;
+	background-image: url(gallery-img/galer-bg.jpeg);
+}
+.gal
+{
+	transition: all 0.25s ease-in-out;
+}
+
+.gallery-img3 img
+{
+	transition: all .3s;
+}
+.gallery-img3 img:hover
+{
+	transform: scale(1.03);
+	opacity: .8;
+}
+.gallery-img3 img:hover .gal
+{
+	transform: scale(1.03);
+} 
+
+.gallery-img3 .gal:hover
+{
+	transform: scale(1.03);
+}
+.gallery-img3
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 30px;
+	text-align: center;
+	margin: 0 auto;
+	width: 1200px;
+}
+.galerry3
+{
+	padding-bottom: 100px;
+	border-bottom: 1px solid #e1e1e1;
+}
+.galerry3 h2
+{
+	color: #ffffff;
+	text-shadow: 3px 9px 16px rgba(0, 0, 0, 0.18);
+	font-size: 55px;
+	line-height: 1.18182;
+	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	letter-spacing: .05em;
+	text-transform: uppercase;
+}
+.gallery-img3 .gal
+{
+	background-color: #c14679;
+	width: 370px;
+	height: 315px;
+}
+footer
+{
+	padding: 100px 0;
+	display: flex;
+	width: 1200px;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+footer h5
+{
+	letter-spacing: .2em;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 1.66667;
+	font-weight: 700;
+	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.gallery-img img
+{
+	height: 93px;
+	width: 93px;
+	transition: all .3s;
+}
+.gallery-img img:hover
+{
+	transform: scale(1.03);
+	opacity: .8;
+}
+.gallery-img img:hover .gal
+{
+	transform: scale(1.03)
+}
+.gallery-img
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+.lin
+{
+	display: flex;
+}
+.lin hr
+{
+	width: 17px;
+	margin-right: 12px;
+	border: 1px #9b9982 solid;
+	opacity: 0.8;
+	
+}
+.lin a
+{
+	font-size: 17px;
+	color: #111;
+	line-height: 1.6;
+	font-weight: 400;
+	letter-spacing: .05em;
+	font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.hr
+{
+	align-self: center;
+}
+.links
+{
+	width: 180px;
+}
+.linki
+{
+	padding: 3px;
+}
+.linki:hover .lin a
+{
+	color: #c14679;
+}
+.linki:hover .lin hr
+{
+	background-color: #c14679;
+	border-color: #c14679;
+	width: 35px;
+}
+.point
+{
+	display: flex;
+	margin-bottom: 13px;
+}
+.point .adr,.num
+{
+	margin-right: 20px;
+	width: 19px;
+	height: 24px;
+	align-self: center;
+}
+.em
+{
+	margin-right: 20px;
+	width: 23px;
+	height: 24px;
+	align-self: flex-end;
+}
+.point p:hover
+{
+	color: #c14679;
+}
+.point a:hover
+{
+	color: #c14679;
+}
+.point a
+{
+	color: black;
+}
+.point p
+{
+	letter-spacing: .05em;
+	
+	font-size: 16px;
+	line-height: 1.6;
+	font-weight: 400;
+	font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.last-net
+{
+	margin-top: 30px;
+	display: flex;
+	width: 280px;
+	justify-content: space-between;
+
+}
+.last-net img
+{
+	width: 41px;
+	height: 41px;
+}
+.l11
+{
+	display: none;
+}
+.sircle2:hover .l1
+{
+	display: none;
+}
+.sircle2:hover .l11
+{
+	display: block;
+}
+.last
+{
+	width: 300px;
+}
+.gal
+{
+	background-color: #c14679;
+	height: 93px;
+	width: 93px;
+}
+.privat
+{
+	border-top: 1px solid #e1e1e1;
+	padding: 35px 0;
+	text-align: center;
+}
+.privat p
+{
+	letter-spacing: 0;
+	color: #777777;
+	font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.nsb
+{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 10px;
+	transition: 0.4s;
+}
+.nsb img
+{
+	transition: 0.3s;
+	margin: 10px;
+	cursor: pointer;
+	width: 46px;
+	height: 46px;
+	border-radius: 100%;
+}
+.nsb img:hover
+{
+	filter: brightness(0.7);
+	transform: scale(1.09);
+}
+.gal-main
+{
+	transition: 0.95s;	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.gal-main a
+{
+	color: #111;
+	transition: all 0.25s ease-in-out;
+	font-weight: 500;
+	letter-spacing: 0;
+	font-size: 20px;
+	line-height: 1.66667;
+	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.gal-main p
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1;
+	color: #c14679;
+	font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+.gal-main a:hover
+{
+	color: #c14679;
+}
+.gal-main-wrappeer
+{
+	transition: 0.95s;
+}
+.gal-main:hover .gal-main-wrappeer
+{
+	display: block;
+}
+.gal-main:hover .gal
+{
+	display: none;
+}
+.gal-main-wrappeer
+{
+	display: none;
+	transition: all 0.25s ease-in-out;
+}

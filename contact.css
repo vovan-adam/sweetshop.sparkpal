@@ -1,0 +1,530 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: 0.25s;
+	transition-timing-function: ease-out;
+}
+a{
+	text-decoration: none;
+	transition: all 0.25s ease-in-out;
+}
+header
+{
+	margin: 3% 15%;
+}
+.menu
+{
+	background-color: #fff;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	justify-content: space-between;
+	display: flex;
+	padding: 0 15.5%;
+	border-top: 1px solid #e1e1e1;
+}
+.menu-navigation
+{
+	display: flex;
+	width: 712px;
+	justify-content: space-between;
+}
+.menu-navigation a:hover
+{
+	border-top: 7px solid #c14679;
+}
+.menu-navigation a:nth-child(7)
+{
+	border-top: 7px solid #c14679;
+}
+.menu-navigation a
+{
+	transition-timing-function: ease-out;
+	transition: 0.015;
+	color: #111;
+	padding: 30px 0;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 1.2;
+	font-weight: 700;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.header1
+{
+  
+	display: flex;
+	justify-content: space-between;
+}
+.adres
+{
+	display: flex;
+	align-items: flex-end;
+}
+
+.adres img
+{
+	height: 48px;
+}
+.help img
+{
+	margin: 0 10px;
+	width: 30px;
+	height: 65px;
+}
+.help
+{
+	align-self: flex-end;
+	text-align: right;
+	display: flex;
+}
+.hh2
+{
+	display: none;
+}
+.h1:hover  .hh1
+{
+	display: none;
+}
+.h1:hover .hh2
+{
+	display: block;
+	transform: scale(1.04);
+}
+.adres p
+{
+	color: #151515;
+	font-size: 20px;
+    letter-spacing: .05em;
+    padding-left: 10px;
+}
+.adres p:hover
+{
+	color: #a43664;
+}
+.logo
+{
+	padding-right: 7%;
+}
+.touch
+{
+	border: 2px solid #a43664;
+	display: flex;
+	align-items: center;
+	padding: 3px 30px;
+	border-radius: 8%;
+}
+.touch img
+{
+	width: 30px;
+}
+.touch a
+{
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #111;
+	font-weight: 600;
+}
+.touch:hover
+{
+	background-color: #a43664;
+	opacity: 0.8;
+}
+.gal-h2 h2
+{
+	color: #fff;
+	font-weight: 600;
+	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	text-shadow: 3px 9px 16px rgba(0, 0, 0, 0.18);
+	font-size: 57px;
+	line-height: 1.18182;
+	letter-spacing: .05em;
+	text-transform: uppercase;
+}
+.gal-h2
+{
+	margin-bottom: 100px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 190px;
+	background-image: url(gallery-img/galer-bg.jpeg);
+}
+.input-touch
+{
+	padding-bottom: 100px ;
+	width: 70%;
+	margin: 0 auto;
+}
+.input-touch .first-wrapper
+{
+	display: flex;
+	margin-bottom: 30px;
+}
+.first-wrapper p
+{
+	font-size: 15px;
+	line-height: 1.6;
+	font-weight: 400;
+	letter-spacing: .05em;
+	font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	color: #777777;
+	align-self: center;
+}
+.input-touch h3
+{
+	align-self: flex-end;
+	padding-right: 40px;
+	margin-right: 40px;
+	border-right: 1px solid #e1e1e1;
+	font-size: 36px;
+	line-height: 1.33333;
+	font-weight: 700;
+	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	letter-spacing: .05em;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.inputs
+{
+	display: flex;
+	justify-content: space-between;
+}
+.inputs input
+{
+	margin: 10px 15px 10px 0;
+	width: 370px;
+	outline: none;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	transition: .3s ease-in-out;
+	font-size: 15px;
+	min-height: 60px;
+	padding: 17px 0;
+	line-height: 1.5;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: .1em;
+	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+   color:#111;
+   font-size: 19px;
+   line-height: 1.5;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: .1em;
+   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.inp-wrap
+{
+	display: flex;
+	
+}
+.area textarea
+{
+	width: 370px;
+	height: 150px;
+	padding: 17px 0;
+	color:#111;
+	font-size: 19px;
+	line-height: 1.5;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: .1em;
+	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	outline: none;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	transition: .3s ease-in-out;
+	border-bottom: 2px solid #e1e1e1;
+}
+button
+{
+	transition: 0.2.5s;
+	transition-timing-function: ease-out;
+	margin-top: 60px;
+	padding: 19px 50px;
+	font-size: 14px;
+	line-height: 2;
+	border-radius: 8px;
+	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	outline: none;
+	border: 2px solid;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 0.2px;
+	font-size: 15.5px;
+	background-color: #a43664;
+}
+button:hover
+{
+	transform: scale(1.058);
+	filter: grayscale(20%);
+}
+.hand
+{
+	display: flex;
+}
+
+.hand:hover .hand-touch
+{
+	transform: rotate(-45deg);
+}
+@keyframes rotate
+{
+	0%
+	{
+		transform: rotate(0);
+	}
+	25%
+	{
+		transform: rotate(35deg);
+	}
+	50%
+	{
+		transform: rotate(-35deg);
+	}
+	
+}
+.hand-touch
+{
+	width: 70px;
+	margin-right: 10px;
+	animation: rotate 1.7s 0.2s 1 ease-in-out; 
+}
+.inform-wrapper
+{
+	display: flex;
+	width: 70%;
+	margin: 0 auto;
+}
+.inform
+{
+	padding: 100px 0;
+	background-color: #f9faf9;
+	
+}
+.inform h4
+{
+	padding-bottom: 10px;
+	font-weight: 700;
+	letter-spacing: .075em;
+	font-size: 24px;
+	line-height: 1.5;
+	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	text-transform: uppercase;
+}
+.inform-touch
+{
+	text-align: center;
+	width: 33.3%;
+	padding-right: 15px;
+	padding-left: 15px;
+	display: flex;
+	flex-direction: column;
+}
+.inform-touch a 
+{
+	font-size: 15px;
+	line-height: 1.6;
+	font-weight: 400;
+	letter-spacing: .05em;
+	font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	color: gray;
+	transition-timing-function: ease-out;
+	transition: 0.25s;
+}
+.inform-touch a:hover
+{
+	color: #a43664;
+}
+.inform-touch a:hover span
+{
+	color: #111;
+}
+.inform-touch a span
+{
+	color: #111;
+	font-size: 15px;
+	line-height: 1.6;
+	font-weight: 400;
+	letter-spacing: .05em;
+	font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+footer
+{
+	padding: 100px 0;
+	display: flex;
+	width: 1200px;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+footer h5
+{
+	letter-spacing: .2em;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 1.66667;
+	font-weight: 700;
+	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.gallery-img img
+{
+	height: 93px;
+	width: 93px;
+	transition: all .3s;
+}
+.gallery-img img:hover
+{
+	transform: scale(1.03);
+	opacity: .8;
+}
+.gallery-img img:hover .gal
+{
+	transform: scale(1.03)
+}
+.gallery-img
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+.lin
+{
+	display: flex;
+}
+.lin hr
+{
+	width: 17px;
+	margin-right: 12px;
+	border: 1px #9b9982 solid;
+	opacity: 0.8;
+	
+}
+.lin a
+{
+	font-size: 17px;
+	color: #111;
+	line-height: 1.6;
+	font-weight: 400;
+	letter-spacing: .05em;
+	font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.hr
+{
+	align-self: center;
+}
+.links
+{
+	width: 180px;
+}
+.linki
+{
+	padding: 3px;
+}
+.linki:hover .lin a
+{
+	color: #c14679;
+}
+.linki:hover .lin hr
+{
+	background-color: #c14679;
+	border-color: #c14679;
+	width: 35px;
+}
+.point
+{
+	display: flex;
+	margin-bottom: 13px;
+}
+.point .adr,.num
+{
+	margin-right: 20px;
+	width: 19px;
+	height: 24px;
+	align-self: center;
+}
+.em
+{
+	margin-right: 20px;
+	width: 23px;
+	height: 24px;
+	align-self: flex-end;
+}
+.point p:hover
+{
+	color: #c14679;
+}
+.point a:hover
+{
+	color: #c14679;
+}
+.point a
+{
+	color: black;
+}
+.point p
+{
+	letter-spacing: .05em;
+	
+	font-size: 16px;
+	line-height: 1.6;
+	font-weight: 400;
+	font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.last-net
+{
+	margin-top: 30px;
+	display: flex;
+	width: 280px;
+	justify-content: space-between;
+
+}
+.last-net img
+{
+	width: 41px;
+	height: 41px;
+}
+.l11
+{
+	display: none;
+}
+.sircle2:hover .l1
+{
+	display: none;
+}
+.sircle2:hover .l11
+{
+	display: block;
+}
+.last
+{
+	width: 300px;
+}
+.gal
+{
+	background-color: #c14679;
+	height: 93px;
+	width: 93px;
+}
+.privat
+{
+	border-top: 1px solid #e1e1e1;
+	padding: 35px 0;
+	text-align: center;
+}
+.privat p
+{
+	letter-spacing: 0;
+	color: #777777;
+	font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
